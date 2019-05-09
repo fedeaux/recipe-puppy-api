@@ -1,0 +1,10 @@
+h1 Recipe Finder
+
+#input-wrapper
+  .ui.form
+    input.query-input(type='text' placeholder='Just start typing...')
+
+  table.ui.striped.table.results-table(style='display: none')
+
+javascript:
+  new RecipesApi('#input-wrapper')
